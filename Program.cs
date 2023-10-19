@@ -1,4 +1,4 @@
-﻿namespace HomeTask18_Enum_
+namespace HomeTask18_Enum_
 {
     internal class Program
     {
@@ -40,6 +40,9 @@
                     double convertedAmount4 = money4.Value * 0.56;
 
                     Console.WriteLine($"\n{curr} AZN -> {convertedAmount4} {CurrencyEnum.EUR}");
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice, try again!");
                     break;
             }
         }
